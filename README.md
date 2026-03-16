@@ -1,13 +1,4 @@
-Sehr gut. Eine **gute README** macht aus einem einfachen Kursprojekt sofort ein **Portfolio-Projekt**.
-Ich habe sie bewusst **klar, technisch und nicht zu lang** geschrieben – so mögen Recruiter das.
 
-Du kannst das **1:1 in `README.md` einfügen**.
-
----
-
-# README.md
-
-```markdown
 # Terraform AWS Infrastructure Basics
 
 This repository contains a simple Terraform project demonstrating how to provision basic AWS infrastructure using Infrastructure as Code (IaC).
@@ -72,6 +63,7 @@ cp terraform.tfvars.example terraform.tfvars
 Then update it with their own values.
 
 ## Security Best Practices
+
 
 Sensitive values such as credentials or environment-specific variables should **never be committed to version control**.
 
