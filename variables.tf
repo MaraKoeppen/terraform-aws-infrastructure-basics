@@ -12,3 +12,23 @@ variable "monitoring" {
   type    = bool
   default = false
 }
+
+variable "ebs_size" {
+  type    = number
+  default = 5
+}
+
+variable "cidr_block_vpc" {
+  type    = list(string)
+  default = ["172.16.0.0/16"]
+}
+
+variable "cidr_block_subnet" {
+  type    = list(string)
+  default = ["172.16.10.0/24"]
+}
+
+variable "availability_zone" {
+  type    = list(string)
+  default = ["eu-west-3a"]
+}
