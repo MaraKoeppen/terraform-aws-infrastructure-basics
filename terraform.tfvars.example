@@ -1,0 +1,3 @@
+type_instance = "t3.micro"
+image_id      = "ami-xxxxxxxxxxxxxxxxx"
+monitoring    = true
